@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sony SAB - YouTube Channel</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: whitesmoke;
+      
+    }
+
+    .banner {
+      height: 200px;
+      background: url('aaj tak.png') no-repeat center/cover;
+    }
+
+    .channel-info {
+      display: flex;
+      align-items: center;
+  
+    }
+
+    .channel-logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    
+    }
+
+    h1, h2 {
+      margin: 0;
+    }
+
+   
+
+    .subscribe-btn {
+      margin-left: auto;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: white;
+      color: black;
+      cursor: pointer;
+      border: none;
+    }
+
+    .nav {
+      display: flex;
+      gap: 30px;
+      padding: 20px 40px;
+      border-top: 1px solid #444;
+      border-bottom: 1px solid #444;
+    
+    }
+
+    .nav a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .videos-section {
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    iframe {
+      width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner"></div>
+
+  <div class="channel-info">
+    <img src="download.png" alt="Sony SAB Logo" class="channel-logo" />
+    <div>
+      <h1>Sony SAB ✔</h1>
+      <p class="stats">@Aaj Tak · 72M subscribers · 98K videos</p>
+      <p>Official Account of Aaj Tak, a leading Hindi GEC within Sony Pictures Networks.</p>
+    </div>
+    <button class="subscribe-btn">Subscribed</button>
+  </div>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+  </div>
+
+  <div class="videos-section">
+    <h2>Featured Video</h2>
+    <iframe 
+      src="https://www.youtube.com/embed/40i4FFdokLM?autoplay=0" 
+      allowfullscreen 
+      title="Featured Video"
+    ></iframe>
+
+    <iframe src="https://www.youtube.com/embed/fnnczQbD1bk?si=fpo4KaxBhy-_M2Iw" frameborder="0"></iframe>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Navbar with Icons</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #666;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #0b0751;
+      padding: 0 20px;
+      height: 80px;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+    }
+
+    a {
+      color: #cc4c4c;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    a:hover {
+      color: #ff6666;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 22px;
+      margin-left: 15px;
+    }
+
+    .social-icons a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="download (1).jpeg" alt="Logo" />
+    </div>
+
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">SERVICES</a></li>
+    </ul>
+
+    <div class="social-icons">
+      <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </nav>
+
+</body>
+</html>
